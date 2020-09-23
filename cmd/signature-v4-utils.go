@@ -26,9 +26,9 @@ import (
 	"strconv"
 	"strings"
 
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
+	xhttp "github.com/blastbao/minio/cmd/http"
+	"github.com/blastbao/minio/cmd/logger"
+	"github.com/blastbao/minio/pkg/auth"
 	"github.com/minio/sha256-simd"
 )
 

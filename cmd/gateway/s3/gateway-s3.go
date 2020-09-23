@@ -30,14 +30,14 @@ import (
 	miniogo "github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	minio "github.com/minio/minio/cmd"
+	minio "github.com/blastbao/minio/cmd"
 
 	"github.com/minio/minio-go/v7/pkg/encrypt"
 	"github.com/minio/minio-go/v7/pkg/s3utils"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/bucket/policy"
+	xhttp "github.com/blastbao/minio/cmd/http"
+	"github.com/blastbao/minio/cmd/logger"
+	"github.com/blastbao/minio/pkg/auth"
+	"github.com/blastbao/minio/pkg/bucket/policy"
 )
 
 func init() {

@@ -31,9 +31,9 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/minio/minio/pkg/certs"
-	"github.com/minio/minio/pkg/event"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/blastbao/minio/pkg/certs"
+	"github.com/blastbao/minio/pkg/event"
+	xnet "github.com/blastbao/minio/pkg/net"
 )
 
 // Webhook constants

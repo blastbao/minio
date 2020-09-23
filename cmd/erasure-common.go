@@ -20,7 +20,7 @@ import (
 	"context"
 	"path"
 
-	"github.com/minio/minio/pkg/sync/errgroup"
+	"github.com/blastbao/minio/pkg/sync/errgroup"
 )
 
 func (er erasureObjects) getLoadBalancedLocalDisks() (newDisks []StorageAPI) {

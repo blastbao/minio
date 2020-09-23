@@ -20,7 +20,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/minio/minio/cmd/config"
+	"github.com/blastbao/minio/cmd/config"
 )
 
 const (

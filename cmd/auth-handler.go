@@ -30,14 +30,14 @@ import (
 	"strings"
 	"time"
 
-	xhttp "github.com/minio/minio/cmd/http"
-	xjwt "github.com/minio/minio/cmd/jwt"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	objectlock "github.com/minio/minio/pkg/bucket/object/lock"
-	"github.com/minio/minio/pkg/bucket/policy"
-	"github.com/minio/minio/pkg/hash"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
+	xhttp "github.com/blastbao/minio/cmd/http"
+	xjwt "github.com/blastbao/minio/cmd/jwt"
+	"github.com/blastbao/minio/cmd/logger"
+	"github.com/blastbao/minio/pkg/auth"
+	objectlock "github.com/blastbao/minio/pkg/bucket/object/lock"
+	"github.com/blastbao/minio/pkg/bucket/policy"
+	"github.com/blastbao/minio/pkg/hash"
+	iampolicy "github.com/blastbao/minio/pkg/iam/policy"
 )
 
 // Verify if request has JWT.

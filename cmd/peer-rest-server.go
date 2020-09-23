@@ -29,10 +29,10 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/madmin"
-	trace "github.com/minio/minio/pkg/trace"
+	"github.com/blastbao/minio/cmd/logger"
+	"github.com/blastbao/minio/pkg/event"
+	"github.com/blastbao/minio/pkg/madmin"
+	trace "github.com/blastbao/minio/pkg/trace"
 )
 
 // To abstract a node over network.

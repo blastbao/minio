@@ -20,9 +20,9 @@ import (
 	"os"
 	"testing"
 
-	"github.com/minio/minio/pkg/s3select/internal/parquet-go/data"
-	"github.com/minio/minio/pkg/s3select/internal/parquet-go/gen-go/parquet"
-	"github.com/minio/minio/pkg/s3select/internal/parquet-go/schema"
+	"github.com/blastbao/minio/pkg/s3select/internal/parquet-go/data"
+	"github.com/blastbao/minio/pkg/s3select/internal/parquet-go/gen-go/parquet"
+	"github.com/blastbao/minio/pkg/s3select/internal/parquet-go/schema"
 )
 
 func TestWriterWrite(t *testing.T) {

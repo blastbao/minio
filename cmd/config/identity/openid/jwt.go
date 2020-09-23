@@ -29,11 +29,11 @@ import (
 	"time"
 
 	jwtgo "github.com/dgrijalva/jwt-go"
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/env"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/blastbao/minio/cmd/config"
+	"github.com/blastbao/minio/pkg/auth"
+	"github.com/blastbao/minio/pkg/env"
+	iampolicy "github.com/blastbao/minio/pkg/iam/policy"
+	xnet "github.com/blastbao/minio/pkg/net"
 )
 
 // Config - OpenID Config

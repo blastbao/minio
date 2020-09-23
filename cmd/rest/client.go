@@ -26,8 +26,8 @@ import (
 	"sync/atomic"
 	"time"
 
-	xhttp "github.com/minio/minio/cmd/http"
-	xnet "github.com/minio/minio/pkg/net"
+	xhttp "github.com/blastbao/minio/cmd/http"
+	xnet "github.com/blastbao/minio/pkg/net"
 )
 
 // DefaultRESTTimeout - default RPC timeout is one minute.

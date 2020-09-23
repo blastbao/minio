@@ -27,12 +27,12 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/minio/minio/cmd/config/cache"
-	"github.com/minio/minio/cmd/logger"
-	objectlock "github.com/minio/minio/pkg/bucket/object/lock"
-	"github.com/minio/minio/pkg/color"
-	"github.com/minio/minio/pkg/sync/errgroup"
-	"github.com/minio/minio/pkg/wildcard"
+	"github.com/blastbao/minio/cmd/config/cache"
+	"github.com/blastbao/minio/cmd/logger"
+	objectlock "github.com/blastbao/minio/pkg/bucket/object/lock"
+	"github.com/blastbao/minio/pkg/color"
+	"github.com/blastbao/minio/pkg/sync/errgroup"
+	"github.com/blastbao/minio/pkg/wildcard"
 )
 
 const (

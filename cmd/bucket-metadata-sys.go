@@ -24,16 +24,16 @@ import (
 	"sync"
 
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/cmd/logger"
-	bucketsse "github.com/minio/minio/pkg/bucket/encryption"
-	"github.com/minio/minio/pkg/bucket/lifecycle"
-	objectlock "github.com/minio/minio/pkg/bucket/object/lock"
-	"github.com/minio/minio/pkg/bucket/policy"
-	"github.com/minio/minio/pkg/bucket/replication"
-	"github.com/minio/minio/pkg/bucket/versioning"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/madmin"
-	"github.com/minio/minio/pkg/sync/errgroup"
+	"github.com/blastbao/minio/cmd/logger"
+	bucketsse "github.com/blastbao/minio/pkg/bucket/encryption"
+	"github.com/blastbao/minio/pkg/bucket/lifecycle"
+	objectlock "github.com/blastbao/minio/pkg/bucket/object/lock"
+	"github.com/blastbao/minio/pkg/bucket/policy"
+	"github.com/blastbao/minio/pkg/bucket/replication"
+	"github.com/blastbao/minio/pkg/bucket/versioning"
+	"github.com/blastbao/minio/pkg/event"
+	"github.com/blastbao/minio/pkg/madmin"
+	"github.com/blastbao/minio/pkg/sync/errgroup"
 )
 
 // BucketMetadataSys captures all bucket metadata for a given cluster.

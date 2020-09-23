@@ -25,8 +25,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/pkg/env"
+	"github.com/blastbao/minio/cmd/config"
+	"github.com/blastbao/minio/pkg/env"
 	ldap "gopkg.in/ldap.v3"
 )
 

@@ -25,9 +25,9 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/minio/minio/cmd/logger/message/log"
-	"github.com/minio/minio/pkg/disk"
-	"github.com/minio/minio/pkg/net"
+	"github.com/blastbao/minio/cmd/logger/message/log"
+	"github.com/blastbao/minio/pkg/disk"
+	"github.com/blastbao/minio/pkg/net"
 
 	"github.com/shirou/gopsutil/cpu"
 	"github.com/shirou/gopsutil/host"

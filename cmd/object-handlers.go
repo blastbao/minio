@@ -37,20 +37,20 @@ import (
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	"github.com/minio/minio-go/v7/pkg/encrypt"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/cmd/config/dns"
-	"github.com/minio/minio/cmd/config/storageclass"
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	objectlock "github.com/minio/minio/pkg/bucket/object/lock"
-	"github.com/minio/minio/pkg/bucket/policy"
-	"github.com/minio/minio/pkg/bucket/replication"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/handlers"
-	"github.com/minio/minio/pkg/hash"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/ioutil"
-	"github.com/minio/minio/pkg/s3select"
+	"github.com/blastbao/minio/cmd/config/dns"
+	"github.com/blastbao/minio/cmd/config/storageclass"
+	"github.com/blastbao/minio/cmd/crypto"
+	xhttp "github.com/blastbao/minio/cmd/http"
+	"github.com/blastbao/minio/cmd/logger"
+	objectlock "github.com/blastbao/minio/pkg/bucket/object/lock"
+	"github.com/blastbao/minio/pkg/bucket/policy"
+	"github.com/blastbao/minio/pkg/bucket/replication"
+	"github.com/blastbao/minio/pkg/event"
+	"github.com/blastbao/minio/pkg/handlers"
+	"github.com/blastbao/minio/pkg/hash"
+	iampolicy "github.com/blastbao/minio/pkg/iam/policy"
+	"github.com/blastbao/minio/pkg/ioutil"
+	"github.com/blastbao/minio/pkg/s3select"
 	"github.com/minio/sio"
 )
 
@@ -1285,7 +1285,22 @@ func (api objectAPIHandlers) CopyObjectHandler(w http.ResponseWriter, r *http.Re
 // Currently these keys are:
 //   - X-Amz-Server-Side-Encryption-Customer-Key
 //   - X-Amz-Copy-Source-Server-Side-Encryption-Customer-Key
+
+
+
+
+
+// 首先，检测HTTP HEADER中是否有设置 X-Amz-Copy-Source
+// 检测HTTP HEADER中的Content-Md5，并获取该MD5（注意：该MD5是16进制数Base64Encode之后的结果）
+// 检测是否有相应权限
+// 检测是否超过最大大小限制
+// 根据权限，调用相应的函数。这里我们重点介绍 api.ObjectAPI.PutObject(bucket, object, size, r.Body, metadata)
+// 如果是单机版本，会进入 func (fs fsObjects) PutObject(bucket string, object string, size int64, data io.Reader, metadata map[string]string) (string, error)函数中
+
+
+
 func (api objectAPIHandlers) PutObjectHandler(w http.ResponseWriter, r *http.Request) {
+
 	ctx := newContext(r, w, "PutObject")
 	defer logger.AuditLog(w, r, "PutObject", mustGetClaimsFromToken(r))
 
@@ -1436,6 +1451,7 @@ func (api objectAPIHandlers) PutObjectHandler(w http.ResponseWriter, r *http.Req
 	actualSize := size
 
 	if objectAPI.IsCompressionSupported() && isCompressible(r.Header, object) && size > 0 {
+
 		// Storing the compression metadata.
 		metadata[ReservedMetadataPrefix+"compression"] = compressionAlgorithmV2
 		metadata[ReservedMetadataPrefix+"actual-size"] = strconv.FormatInt(size, 10)

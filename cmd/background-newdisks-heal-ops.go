@@ -23,7 +23,7 @@ import (
 	"time"
 
 	"github.com/dustin/go-humanize"
-	"github.com/minio/minio/cmd/logger"
+	"github.com/blastbao/minio/cmd/logger"
 )
 
 const defaultMonitorNewDiskInterval = time.Second * 10

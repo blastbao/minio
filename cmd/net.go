@@ -26,9 +26,9 @@ import (
 	"syscall"
 
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/logger"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/blastbao/minio/cmd/config"
+	"github.com/blastbao/minio/cmd/logger"
+	xnet "github.com/blastbao/minio/pkg/net"
 )
 
 // IPv4 addresses of local host.

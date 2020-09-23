@@ -17,7 +17,7 @@
 package cmd
 
 import (
-	"github.com/minio/minio/pkg/bucket/lifecycle"
+	"github.com/blastbao/minio/pkg/bucket/lifecycle"
 )
 
 const (

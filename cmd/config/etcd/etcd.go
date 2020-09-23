@@ -22,9 +22,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/pkg/env"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/blastbao/minio/cmd/config"
+	"github.com/blastbao/minio/pkg/env"
+	xnet "github.com/blastbao/minio/pkg/net"
 	"go.etcd.io/etcd/v3/clientv3"
 	"go.etcd.io/etcd/v3/clientv3/namespace"
 )

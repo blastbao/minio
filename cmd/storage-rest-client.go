@@ -31,11 +31,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/cmd/http"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/cmd/rest"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/blastbao/minio/cmd/http"
+	xhttp "github.com/blastbao/minio/cmd/http"
+	"github.com/blastbao/minio/cmd/logger"
+	"github.com/blastbao/minio/cmd/rest"
+	xnet "github.com/blastbao/minio/pkg/net"
 )
 
 func isNetworkError(err error) bool {

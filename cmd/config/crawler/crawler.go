@@ -19,7 +19,7 @@ package crawler
 import (
 	"errors"
 
-	"github.com/minio/minio/cmd/config"
+	"github.com/blastbao/minio/cmd/config"
 )
 
 // Compression environment variables

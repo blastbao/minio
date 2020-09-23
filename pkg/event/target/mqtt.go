@@ -29,8 +29,8 @@ import (
 	"time"
 
 	mqtt "github.com/eclipse/paho.mqtt.golang"
-	"github.com/minio/minio/pkg/event"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/blastbao/minio/pkg/event"
+	xnet "github.com/blastbao/minio/pkg/net"
 )
 
 const (

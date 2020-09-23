@@ -41,12 +41,12 @@ import (
 	"github.com/dustin/go-humanize"
 	jsoniter "github.com/json-iterator/go"
 	"github.com/klauspost/readahead"
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/disk"
-	"github.com/minio/minio/pkg/env"
-	xioutil "github.com/minio/minio/pkg/ioutil"
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/blastbao/minio/cmd/config"
+	"github.com/blastbao/minio/cmd/logger"
+	"github.com/blastbao/minio/pkg/disk"
+	"github.com/blastbao/minio/pkg/env"
+	xioutil "github.com/blastbao/minio/pkg/ioutil"
+	"github.com/blastbao/minio/pkg/madmin"
 )
 
 const (

@@ -24,10 +24,10 @@ import (
 	"io"
 	"net/url"
 
-	"github.com/minio/minio/cmd/http"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/rest"
-	"github.com/minio/minio/pkg/dsync"
+	"github.com/blastbao/minio/cmd/http"
+	xhttp "github.com/blastbao/minio/cmd/http"
+	"github.com/blastbao/minio/cmd/rest"
+	"github.com/blastbao/minio/pkg/dsync"
 )
 
 // lockRESTClient is authenticable lock REST client

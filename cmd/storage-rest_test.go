@@ -25,8 +25,8 @@ import (
 	"testing"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/cmd/config"
-	xnet "github.com/minio/minio/pkg/net"
+	"github.com/blastbao/minio/cmd/config"
+	xnet "github.com/blastbao/minio/pkg/net"
 )
 
 ///////////////////////////////////////////////////////////////////////////////

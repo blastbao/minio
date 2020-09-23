@@ -24,7 +24,7 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/minio/minio/pkg/madmin"
+	"github.com/blastbao/minio/pkg/madmin"
 	diskhw "github.com/shirou/gopsutil/disk"
 	"github.com/shirou/gopsutil/host"
 )

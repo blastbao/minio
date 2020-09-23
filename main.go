@@ -22,15 +22,15 @@
  * more information refer https://golang.org/doc/go1.4#canonicalimports
  */
 
-package main // import "github.com/minio/minio"
+package main // import "github.com/blastbao/minio"
 
 import (
 	"os"
 
-	minio "github.com/minio/minio/cmd"
+	minio "github.com/blastbao/minio/cmd"
 
 	// Import gateway
-	_ "github.com/minio/minio/cmd/gateway"
+	_ "github.com/blastbao/minio/cmd/gateway"
 )
 
 func main() {

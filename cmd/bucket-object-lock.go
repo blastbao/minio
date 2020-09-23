@@ -21,10 +21,10 @@ import (
 	"math"
 	"net/http"
 
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	objectlock "github.com/minio/minio/pkg/bucket/object/lock"
-	"github.com/minio/minio/pkg/bucket/policy"
+	"github.com/blastbao/minio/cmd/logger"
+	"github.com/blastbao/minio/pkg/auth"
+	objectlock "github.com/blastbao/minio/pkg/bucket/object/lock"
+	"github.com/blastbao/minio/pkg/bucket/policy"
 )
 
 // BucketObjectLockSys - map of bucket and retention configuration.

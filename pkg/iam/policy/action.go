@@ -17,8 +17,8 @@
 package iampolicy
 
 import (
-	"github.com/minio/minio/pkg/bucket/policy/condition"
-	"github.com/minio/minio/pkg/wildcard"
+	"github.com/blastbao/minio/pkg/bucket/policy/condition"
+	"github.com/blastbao/minio/pkg/wildcard"
 )
 
 // Action - policy action.

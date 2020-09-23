@@ -31,14 +31,14 @@ import (
 	"time"
 
 	"github.com/dustin/go-humanize"
-	"github.com/minio/minio/cmd/http"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/cmd/rest"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/madmin"
-	xnet "github.com/minio/minio/pkg/net"
-	trace "github.com/minio/minio/pkg/trace"
+	"github.com/blastbao/minio/cmd/http"
+	xhttp "github.com/blastbao/minio/cmd/http"
+	"github.com/blastbao/minio/cmd/logger"
+	"github.com/blastbao/minio/cmd/rest"
+	"github.com/blastbao/minio/pkg/event"
+	"github.com/blastbao/minio/pkg/madmin"
+	xnet "github.com/blastbao/minio/pkg/net"
+	trace "github.com/blastbao/minio/pkg/trace"
 )
 
 // client to talk to peer Nodes.

@@ -24,10 +24,10 @@ import (
 	"strconv"
 	"time"
 
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/pkg/bucket/lifecycle"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/handlers"
+	xhttp "github.com/blastbao/minio/cmd/http"
+	"github.com/blastbao/minio/pkg/bucket/lifecycle"
+	"github.com/blastbao/minio/pkg/event"
+	"github.com/blastbao/minio/pkg/handlers"
 )
 
 var (

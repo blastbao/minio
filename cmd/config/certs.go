@@ -25,7 +25,7 @@ import (
 	"encoding/pem"
 	"io/ioutil"
 
-	"github.com/minio/minio/pkg/env"
+	"github.com/blastbao/minio/pkg/env"
 )
 
 // EnvCertPassword is the environment variable which contains the password used

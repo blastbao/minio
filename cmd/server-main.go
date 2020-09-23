@@ -28,14 +28,14 @@ import (
 	"time"
 
 	"github.com/minio/cli"
-	"github.com/minio/minio/cmd/config"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/certs"
-	"github.com/minio/minio/pkg/color"
-	"github.com/minio/minio/pkg/env"
-	"github.com/minio/minio/pkg/retry"
+	"github.com/blastbao/minio/cmd/config"
+	xhttp "github.com/blastbao/minio/cmd/http"
+	"github.com/blastbao/minio/cmd/logger"
+	"github.com/blastbao/minio/pkg/auth"
+	"github.com/blastbao/minio/pkg/certs"
+	"github.com/blastbao/minio/pkg/color"
+	"github.com/blastbao/minio/pkg/env"
+	"github.com/blastbao/minio/pkg/retry"
 )
 
 // ServerFlags - server command specific flags

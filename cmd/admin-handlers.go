@@ -36,18 +36,18 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/config/notify"
-	"github.com/minio/minio/cmd/crypto"
-	xhttp "github.com/minio/minio/cmd/http"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/cmd/logger/message/log"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/handlers"
-	iampolicy "github.com/minio/minio/pkg/iam/policy"
-	"github.com/minio/minio/pkg/madmin"
-	xnet "github.com/minio/minio/pkg/net"
-	trace "github.com/minio/minio/pkg/trace"
+	"github.com/blastbao/minio/cmd/config"
+	"github.com/blastbao/minio/cmd/config/notify"
+	"github.com/blastbao/minio/cmd/crypto"
+	xhttp "github.com/blastbao/minio/cmd/http"
+	"github.com/blastbao/minio/cmd/logger"
+	"github.com/blastbao/minio/cmd/logger/message/log"
+	"github.com/blastbao/minio/pkg/auth"
+	"github.com/blastbao/minio/pkg/handlers"
+	iampolicy "github.com/blastbao/minio/pkg/iam/policy"
+	"github.com/blastbao/minio/pkg/madmin"
+	xnet "github.com/blastbao/minio/pkg/net"
+	trace "github.com/blastbao/minio/pkg/trace"
 )
 
 const (

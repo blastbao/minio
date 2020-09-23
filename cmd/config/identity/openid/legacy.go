@@ -16,7 +16,7 @@
 
 package openid
 
-import "github.com/minio/minio/cmd/config"
+import "github.com/blastbao/minio/cmd/config"
 
 // Legacy envs
 const (

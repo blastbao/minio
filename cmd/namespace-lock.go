@@ -28,10 +28,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/minio/minio/cmd/config/storageclass"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/dsync"
-	"github.com/minio/minio/pkg/lsync"
+	"github.com/blastbao/minio/cmd/config/storageclass"
+	"github.com/blastbao/minio/cmd/logger"
+	"github.com/blastbao/minio/pkg/dsync"
+	"github.com/blastbao/minio/pkg/lsync"
 )
 
 // local lock servers
@@ -282,7 +282,7 @@ func getSource(n int) string {
 	if ok {
 		filename = pathutil.Base(filename)
 		funcName = strings.TrimPrefix(runtime.FuncForPC(pc).Name(),
-			"github.com/minio/minio/cmd.")
+			"github.com/blastbao/minio/cmd.")
 	} else {
 		filename = "<unknown>"
 		lineNum = 0

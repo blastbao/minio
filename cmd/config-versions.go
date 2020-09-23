@@ -19,19 +19,19 @@ package cmd
 import (
 	"sync"
 
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/cmd/config/cache"
-	"github.com/minio/minio/cmd/config/compress"
-	xldap "github.com/minio/minio/cmd/config/identity/ldap"
-	"github.com/minio/minio/cmd/config/identity/openid"
-	"github.com/minio/minio/cmd/config/notify"
-	"github.com/minio/minio/cmd/config/policy/opa"
-	"github.com/minio/minio/cmd/config/storageclass"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/auth"
-	"github.com/minio/minio/pkg/event/target"
-	"github.com/minio/minio/pkg/quick"
+	"github.com/blastbao/minio/cmd/config"
+	"github.com/blastbao/minio/cmd/config/cache"
+	"github.com/blastbao/minio/cmd/config/compress"
+	xldap "github.com/blastbao/minio/cmd/config/identity/ldap"
+	"github.com/blastbao/minio/cmd/config/identity/openid"
+	"github.com/blastbao/minio/cmd/config/notify"
+	"github.com/blastbao/minio/cmd/config/policy/opa"
+	"github.com/blastbao/minio/cmd/config/storageclass"
+	"github.com/blastbao/minio/cmd/crypto"
+	"github.com/blastbao/minio/cmd/logger"
+	"github.com/blastbao/minio/pkg/auth"
+	"github.com/blastbao/minio/pkg/event/target"
+	"github.com/blastbao/minio/pkg/quick"
 )
 
 /////////////////// Config V1 ///////////////////

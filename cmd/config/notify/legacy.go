@@ -21,8 +21,8 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/minio/minio/cmd/config"
-	"github.com/minio/minio/pkg/event/target"
+	"github.com/blastbao/minio/cmd/config"
+	"github.com/blastbao/minio/pkg/event/target"
 )
 
 // SetNotifyKafka - helper for config migration from older config.

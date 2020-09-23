@@ -30,13 +30,13 @@ import (
 
 	"github.com/klauspost/compress/zip"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/cmd/crypto"
-	"github.com/minio/minio/cmd/logger"
-	"github.com/minio/minio/pkg/bucket/policy"
-	"github.com/minio/minio/pkg/event"
-	"github.com/minio/minio/pkg/madmin"
-	xnet "github.com/minio/minio/pkg/net"
-	"github.com/minio/minio/pkg/sync/errgroup"
+	"github.com/blastbao/minio/cmd/crypto"
+	"github.com/blastbao/minio/cmd/logger"
+	"github.com/blastbao/minio/pkg/bucket/policy"
+	"github.com/blastbao/minio/pkg/event"
+	"github.com/blastbao/minio/pkg/madmin"
+	xnet "github.com/blastbao/minio/pkg/net"
+	"github.com/blastbao/minio/pkg/sync/errgroup"
 	"github.com/willf/bloom"
 )
 

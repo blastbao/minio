@@ -31,7 +31,7 @@ import (
 	"testing"
 	"time"
 
-	. "github.com/minio/minio/pkg/dsync"
+	. "github.com/blastbao/minio/pkg/dsync"
 )
 
 var ds *Dsync
